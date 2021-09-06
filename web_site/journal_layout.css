@@ -1,0 +1,88 @@
+/*
+	Modified by : SAFAROV OTAMUROD
+	ID: U1810069	Sec: 001
+	Date: 04/03/2021
+*/
+
+
+#block {
+
+	/*Box with the green border*/
+
+	/*border: 5px solid green;*/
+	border: 10px solid white;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+}
+
+body {
+
+	/* The following URL was "Not Found" :
+		http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif
+		So I have used another URL
+	*/
+	background: url('https://cdn.wallpapersafari.com/21/92/7zda0b.gif');
+	background-size: 100px;
+}
+
+#block1 {
+
+	/*Box with the red border*/
+
+	/*border: 5px solid red;*/
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+#block1 h2 {
+
+	/*Box with the orange border*/
+
+	/*border: 5px solid orange;*/
+	font-size: 14pt;
+}
+
+#block2, #block3 {
+
+	/*Box with the blue border*/
+
+	/*border: 5px solid blue;*/
+	border: 4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin: 10px 0px 0px 0px;
+	overflow: hidden;
+	width: 80%;
+	float: right;
+}
+
+.image {
+	float: right;
+}
+
+span {
+
+	/*Box with the purple border*/
+
+	/*border: 5px solid purple;*/
+	border-bottom: 2px dashed blue;
+}
+
+#column1 {
+	float: left;
+	background-color: #00D2FF;
+	border: 4px solid #10971C;
+	margin-top: 10px;
+	padding: 4px;
+	width: 14%;
+}
+
+.spacer {
+	clear: both;
+}
+
+/*Highlights all element when you hover*/
+body *:hover {
+	background-color: yellow;
+}
